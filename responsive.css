@@ -1,0 +1,44 @@
+@media screen and (max-width: 990px){
+    .content .text h2 {
+        font-size: 3em;
+    }
+    .btn {
+        padding: 20px 40px;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .navigation li a {
+        margin-left: 30px;
+    }
+    .content .text h2 {
+        font-size: 2.5em;
+    }
+    .content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 570px){
+    header {
+        padding: 30px 20px;
+    }
+    .btn {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .navigation li a {
+        margin-left: 20px;
+    }
+    .sci li a {
+        font-size: 1.7em;
+    }
+    .prevNext span {
+        width: 40px;
+        height: 40px;
+        font-size: 1em;
+    }
+}
